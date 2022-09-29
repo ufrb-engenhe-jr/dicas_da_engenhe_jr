@@ -11,3 +11,4 @@ curso em vídeo, com o professor Guanabara.
 # Mais informações
 - <a href="https://devdocs.io/javascript/"> Documentação da linguagem</a>
 - <a href="https://www.programiz.com/javascript/online-compiler/"> Compilador de javascript</a>
+- <a href="https://nodejs.org/en/download/">Baixar node</a>
