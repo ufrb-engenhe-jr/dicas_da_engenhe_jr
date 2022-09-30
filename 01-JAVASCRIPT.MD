@@ -12,3 +12,14 @@ curso em vídeo, com o professor Guanabara.
 - <a href="https://devdocs.io/javascript/"> Documentação da linguagem</a>
 - <a href="https://www.programiz.com/javascript/online-compiler/"> Compilador de javascript</a>
 - <a href="https://nodejs.org/en/download/">Baixar node</a>
+
+# Códgo
+
+      const soma = (a,b)=> a + b
+      const sub = (a,b) => a - b
+
+      var lista = [{name:"jeovane"}, {name:"Quele"},{name:"Vinicios"}, ]
+
+      console.log(soma(1,2));
+      console.log(sub(1,2));
+      console.log(lista.map((e)=>e.name))
