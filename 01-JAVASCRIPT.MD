@@ -23,3 +23,8 @@ curso em vídeo, com o professor Guanabara.
       console.log(soma(1,2));
       console.log(sub(1,2));
       console.log(lista.map((e)=>e.name))
+      
+
+# Exercicios
+
+<a href="https://github.com/ufrb-engenhe-jr/dicas_da_engenhe_jr/blob/main/Lista%201.pdf">Lista 1 </a>
