@@ -28,3 +28,95 @@ curso em vídeo, com o professor Guanabara.
 # Exercicios
 
 <a href="https://github.com/ufrb-engenhe-jr/dicas_da_engenhe_jr/blob/main/Lista%201.pdf">Lista 1 </a>
+
+
+# Solução 
+
+2 - Calculadora: Criar uma função em javascript que receba dois valores e 
+retorne o resultado da soma, subtração, divisão e multiplicação.
+
+
+        const calculadora = (a,b)=>{
+            return [a+b,a-b,a/b, a*b]
+        }
+
+        console.log(calculadora(1,2))
+        
+
+3 – Map (javascript): dado o array de objetos faça com que seja mostrado no 
+console.log apenas o nome e idade dos usuários.
+
+
+        const dado = [
+         {
+         id:"1",
+         name:"Bartolomeu Santos",
+         idade:36,
+         created_at:"2022_03_1"
+
+         },
+         {
+         id:"2",
+         name:"Maria Mesote",
+         idade:45,
+         created_at:"2022_02_1"
+
+         },
+         {
+         id:"1",
+         name:"Juliana Silva",
+         idade:36,
+         created_at:"2018_03_1"
+
+         }
+         ]
+
+         console.log(dado.map((e)=>{
+             return e.name + " " + e.idade
+         }))
+
+4 – Usando o conhecimento da questão 2 e 3 faça: criar uma função 
+que recebe o tipo da operação e um array “dado”, e retorne a média
+das idades dos usuários e quantos usuários estão cadastrados.
+
+
+          const response = (arr)=>{
+              let mediaIdade = 0
+
+              arr.map((e)=>{
+                  mediaIdade+=e.idade
+              })
+              const contUser = arr.length
+              mediaIdade = mediaIdade/contUser
+
+              return "Media é "+ mediaIdade + " e a quantidade de user é "+contUser
+
+          }
+
+
+          const dado = [
+           {
+           id:"1",
+           name:"Bartolomeu Santos",
+           idade:36,
+           created_at:"2022_03_1"
+
+           },
+           {
+           id:"2",
+           name:"Maria Mesote",
+           idade:45,
+           created_at:"2022_02_1"
+
+           },
+           {
+           id:"1",
+           name:"Juliana Silva",
+           idade:36,
+           created_at:"2018_03_1"
+
+           }
+           ]
+
+           console.log(response(dado))
+
