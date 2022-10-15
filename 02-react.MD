@@ -50,6 +50,7 @@ O React é uma biblioteca front-end JavaScript de código aberto com foco em cri
 
 # Todo
 
-Nesse projeto foi feita três versões diferentes do mesmo projeto com conceitos "normais" e com o redux.
+Nesse projeto foi feita duad versões diferentes do mesmo projeto com conceitos "normais" e com o redux.
+E uma api, que está hospedada e em funcionamento.
 
 <a href="https://github.com/jeovanedossantossantos/todo-app">Todo app</a>
