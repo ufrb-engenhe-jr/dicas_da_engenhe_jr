@@ -16,6 +16,15 @@ O React é uma biblioteca front-end JavaScript de código aberto com foco em cri
       npx create-react-app meu-app-do-react --template typescrip# já com as configurações para usar o typescript
       
       npm start# inicia o projeto
+
+
+### Instalando o yarn
+
+        npm install --global yarn
+
+### Check installation
+
+        yarn --version
       
 ### Com o yarn
 
