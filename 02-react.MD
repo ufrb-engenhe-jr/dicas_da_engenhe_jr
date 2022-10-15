@@ -40,3 +40,16 @@ O React é uma biblioteca front-end JavaScript de código aberto com foco em cri
 <a href='https://playcode.io/react'> React Playground</a>
 
 <a href='https://codesandbox.io/s/new'> Codesandbox</a>
+
+
+# Projeto mostrado no encontro
+
+<a href="https://github.com/jeovanedossantossantos/desafio-chefao/tree/main/front-cafe">Coffe Experience</a>
+
+<a href="https://github.com/jeovanedossantossantos/my-spotify">My Spotify</a>
+
+# Todo
+
+Nesse projeto foi feita três versões diferentes do mesmo projeto com conceitos "normais" e com o redux.
+
+<a href="https://github.com/jeovanedossantossantos/todo-app">Todo app</a>
